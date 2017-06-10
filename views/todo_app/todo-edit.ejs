@@ -1,0 +1,16 @@
+<%- include ../partials/boilerplate %>
+
+<div class = 'todolist-edit'>
+  <form method = 'POST' action = '/todo/<%= id %>?_method=PUT'>
+  <input name = 'title' type = 'text' value = '<%= todo.title %>' />
+  <input name = 'todo_description' type = 'text' value = '<%= todo.todo_description %>' />
+  <input type = 'submit' value = 'Edit it!' />
+  </form>
+</div>
+
+ 
+<% include ../partials/end %>
+
+
+
+

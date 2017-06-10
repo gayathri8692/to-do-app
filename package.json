@@ -1,0 +1,27 @@
+{
+  "name": "to_do_app",
+  "version": "1.0.0",
+  "description": "my app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/gayathri8692/to-do_Project2"
+  },
+  "author": "Gayathri",
+  "license": "ISC",
+  "dependencies": {
+     "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+     "express": "^4.15.2",
+    "method-override": "^2.3.8",
+     "morgan": "^1.8.1",
+     "nodemon": "^1.11.0",
+     "path": "^0.12.7",
+     "pg-promise": "^5.6.7"
+  }
+}

@@ -1,0 +1,96 @@
+
+
+h3 {
+  font-size: 40px;
+  text-align: center; 
+  color: lightpink;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  color: lightpink;
+}
+
+a.go-todo {
+  display: block;
+  text-align: center;
+  color: lightpink;
+  font-size: 30px;
+}
+
+a {
+  color: black;
+}
+
+.logo {
+  display: inline-flex;
+  color: black;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  line-height: 40px;
+}
+
+header{
+  background: rgba(99, 200, 196, 0.5);
+}
+
+nav {
+  display: inline-block;
+  color: rgb(99, 200, 196);
+  text-align: right;
+  font-size: 25px; 
+}
+
+nav.tabs {
+  display: inline;
+  margin-left: 650px;
+  line-height: 50px;
+}
+
+
+div.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background: rgba(99, 200, 196, 0.5);
+  text-align: center;
+  font-size: 30px;
+  left: 0;
+  line-height: 60px;
+}
+
+div.footer:hover {
+  color: blue;
+}
+
+h3.todo-desc {
+  color: black;
+  font-size: 20px;
+}
+
+div.all-todo {
+  text-align: center;
+}
+
+a.new-todo {
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+div.todolist {
+  text-align: center;
+  margin: 40px;
+  border: 2px solid black;
+}
+
+input {
+  height: 40px;
+  width: 400px;
+  margin: 20px;
+}
